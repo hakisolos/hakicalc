@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator & Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+     
+   
+    <!-- Light/Dark Mode Toggle -->
+    <button class="theme-toggle" id="theme-toggle">
+        <span id="moon-icon" class="theme-icon" style="display: none;">🌙</span>
+        <span id="sun-icon" class="theme-icon">🌞</span>
+        
+    </button>
+
+    <!-- Calculator Section -->
+    <section class="calculator">
+        <div class="display">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="buttons">
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn operator" data-value="/">÷</button>
+
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn operator" data-value="*">×</button>
+
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn operator" data-value="-">−</button>
+
+            <button class="btn" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn operator" data-value="+">+</button>
+            <button class="btn operator" data-value="=">=</button>
+
+            <!-- Scientific Buttons -->
+            <button class="btn function" data-value="Math.sin">sin</button>
+            <button class="btn function" data-value="Math.cos">cos</button>
+            <button class="btn function" data-value="Math.tan">tan</button>
+            <button class="btn function" data-value="Math.log">log</button>
+
+            <!-- Clear and Delete -->
+            <button class="btn" id="clear">CLEAR</button>
+            
+        </div>
+    </section>
+    <p>wait for Currency calculator</p>
+    <p>BY HAKI</p>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
